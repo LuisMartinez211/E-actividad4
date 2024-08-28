@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"  # Carpeta donde se colocará la build de producción
+  command = "npm run build"  # Comando para construir el proyecto
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
